@@ -1,0 +1,116 @@
+/* #btnEscanear {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #btnGenerarID {
+    background-color: #FA5858; 
+    border: none;
+    font-size: 11px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #botonesIniciales{
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  } */
+
+  #botonesIniciales{    
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  #btnEscanear, #btnGenerarID{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+  }
+
+  #btnEscanear{      
+      background-color: #4CAF50; 
+  }
+
+  #btnGenerarID{      
+      background-color: #FA5858; 
+  }
+
+  form{
+      text-align: left;
+      margin: 0 auto;
+      color: #4c4848;
+      padding: 10px;
+      width: 300px;
+  }
+
+  input, textarea{
+      outline: none;
+      border: 0;  
+      width: 280px;    
+  }
+
+  .field{
+      border: solid 1px #cccccc;
+      padding: 5px;
+
+  }
+
+  .field:focus{
+      border-color: #FA5858;
+  }
+
+  .formButton{
+      background-color: #4CAF50;
+      width: 290px;
+      padding: 10px;
+      font-size: 18px;
+      color: #ffffff;
+  }
+
+  #tablaUsuarios{
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+
+
+table{
+    text-align: left;
+    width: 100%;
+}
+
+th, td{
+    padding-left: 40px;
+    width: 300px;
+}
+
+thead{
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #FA5858;
+    border-bottom: solid 5px #0F362D;
+}
+
+#imagenUsuario{
+    width: 100%;
+    padding-left: 300px;
+    margin: 0 auto;
+}
+
+#tituloUsuario{
+    text-align: center;
+}
